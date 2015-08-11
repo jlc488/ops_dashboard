@@ -137,4 +137,10 @@ public class Incident implements IIncident {
 		this.icBean.setClosed(bool);
 		return this;
 	}
+
+	@Override
+	public String toJSON() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

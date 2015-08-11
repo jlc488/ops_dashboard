@@ -4,6 +4,8 @@ public interface IIncident {
 
 	public IncidentBean build();
 	
+	public String toJSON();
+	
 	public Incident projectName(String name);
 	
 	public Incident incidentKey(String key);
